@@ -1,0 +1,79 @@
+body {
+  background-color: rgba(27, 179, 146, 0.377);
+}
+body .message .flex-container {
+  display: flex;
+  border-color: black;
+  width: 80%;
+  height: 570px;
+  margin: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+body .message .flex-container .flex-item-left {
+  background-color: white;
+  transform: translateY(50px);
+  width: 275px;
+  height: 450px;
+  padding: 10px;
+  border-right: 3px solid gray;
+  margin: 0px;
+  text-align: center;
+}
+body .message .flex-container .flex-item-left p {
+  color: gray;
+}
+body .message .flex-container .flex-item-left .fa-sharp {
+  color: blue;
+}
+body .message .flex-container .flex-item-left .fa-solid {
+  color: blue;
+}
+body .message .flex-item-right {
+  background-color: white;
+  margin: 25px;
+}
+body .message .flex-item-right p {
+  width: 82%;
+}
+body .message .flex-item-right #fname {
+  height: 45px;
+  width: 97%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(232, 228, 228);
+  color: gray;
+}
+body .message .flex-item-right #lname {
+  height: 45px;
+  width: 97%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(232, 228, 228);
+  color: gray;
+}
+body .message .flex-item-right textarea {
+  width: 97%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(232, 228, 228);
+  color: gray;
+}
+body .message button {
+  background-color: blue;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: white;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

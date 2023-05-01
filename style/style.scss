@@ -1,0 +1,89 @@
+body{
+    background-color: rgba(27, 179, 146, 0.377);
+
+.message{ 
+.flex-container{ 
+
+    display: flex;
+    border-color: black;
+    width: 80%;
+    height: 570px;
+    margin: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color:white;
+    
+    .flex-item-left{
+    background-color:white;
+    transform: translateY(50px);
+    width: 275px;
+    height: 450px;
+    padding: 10px;
+    border-right: 3px solid gray;
+    margin:0px;
+    text-align: center;
+   
+p{
+    color: gray;
+}
+   
+   
+    .fa-sharp{
+        color: blue;
+    }
+    .fa-solid{
+        color:blue ;
+    }
+   
+  }
+}
+.flex-item-right{
+    background-color:white;
+    margin:25px;
+    p{width: 82%;}
+    #fname{
+        height: 45px;
+        width: 97%;
+        border-radius: 5px;
+        border: none;
+        background-color:rgb(232, 228, 228);
+        color: gray;
+        
+    }
+    #lname{
+        height: 45px;
+        width: 97%;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(232, 228, 228);
+        color: gray;
+    }
+    textarea{
+        width: 97%;
+        border-radius: 5px;
+        border: none;
+        background-color:rgb(232, 228, 228);
+        color: gray;
+    }
+    }
+    button{
+        background-color: blue;
+        width:100px ;
+        height: 35px;
+        border: none;
+        border-radius:5px;
+        color: white;
+        
+    }
+   
+}
+} @media (max-width: 800px) {
+    body{
+        background-color: white;
+    }
+    
+    .flex-container {
+      flex-direction: column;
+      
+    }
+    }
